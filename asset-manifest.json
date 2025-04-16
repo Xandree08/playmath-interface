@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/playmath-interface/static/css/main.f95c3c33.css",
+    "main.js": "/playmath-interface/static/js/main.83133402.js",
+    "static/js/453.56a53e9f.chunk.js": "/playmath-interface/static/js/453.56a53e9f.chunk.js",
+    "index.html": "/playmath-interface/index.html",
+    "main.f95c3c33.css.map": "/playmath-interface/static/css/main.f95c3c33.css.map",
+    "main.83133402.js.map": "/playmath-interface/static/js/main.83133402.js.map",
+    "453.56a53e9f.chunk.js.map": "/playmath-interface/static/js/453.56a53e9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f95c3c33.css",
+    "static/js/main.83133402.js"
+  ]
+}
