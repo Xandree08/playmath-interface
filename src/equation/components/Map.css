@@ -1,0 +1,41 @@
+.map {
+    display: grid;
+    gap: 2px;
+    background-color: #222;
+    padding: 10px;
+    border: 3px solid #555;
+    width: fit-content;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    background-color: #444;
+    border: 1px solid #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  .cell.player {
+    background-color: #4CAF50; 
+    border: 2px solid #2E7D32;
+    font-weight: bold;
+    color: white;
+  }
+  
+
+  .cell.treasure {
+    background-color: #FFD700; 
+    border: 2px solid #B8860B;
+    font-weight: bold;
+    color: black;
+  }
+  

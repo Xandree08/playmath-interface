@@ -1,0 +1,71 @@
+.controls {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: rgb(57, 57, 57);
+    box-shadow: 1px 1px 10px black;
+}
+.circle {
+    position: absolute;
+    top: 45%;
+    right: 44%;
+}
+.up{
+  position: absolute;
+  background-color: rgba(224, 221, 221, 0.211);
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  top: 2%;
+  right: 35%;;
+  z-index: 999;
+}
+.down {
+    position: absolute;
+    background-color: rgba(224, 221, 221, 0.211);
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    bottom: 5%;
+    right: 35%;;
+    z-index: 999;
+}
+.left {
+    position: absolute;
+    background-color: rgba(224, 221, 221, 0.211);
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 30px;
+    bottom: 35%;
+    left: 5%;
+    z-index: 999;
+}
+.right {
+    background-color: rgba(224, 221, 221, 0.211);
+    position: absolute;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    bottom: 35%;
+    right: 5%;
+    z-index: 999;
+}
+
+.up,.down , .left , .right {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.up:hover ,.down:hover , .left:hover , .right:hover {
+    background-color: rgb(190, 215, 47);
+    scale: 1.05;
+}
+

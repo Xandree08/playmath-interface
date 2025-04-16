@@ -1,0 +1,36 @@
+.comments {
+    background-color: #f5f1ff;
+    padding: 50px 0;
+}
+.comments-container {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.comments-title {
+    margin-bottom: 50px;
+}
+
+.comments-title h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #1f2937;
+}
+
+.comments-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+@media(max-width:1460px) {
+    .comments {
+        padding: 10px;
+    }
+    .comments-cards {
+        justify-content: center;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,48 @@
+.comments-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 450px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 5px rgb(233, 232, 232);
+}
+
+.comments-card p {
+    color: #464d57;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 350;
+}
+
+.comments-card-user {
+    display: flex;
+    gap: 20px;
+}
+
+.comments-card-user span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 48px;
+    border-radius: 30px;
+    height: 48px;
+    color: #8B5CF6;
+    background-color: #8B5CF633;
+}
+
+.comments-card-names h4 {
+    color: #1f2937;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.comments-card-names p {
+    color: #4b5563;
+    font-size: 14px;
+    font-weight: 400;
+}
+

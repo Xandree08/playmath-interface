@@ -1,0 +1,228 @@
+.header {
+    width: 100%;
+    position: relative;
+    background-color: rgba(138, 92, 246, 0.175);
+    backdrop-filter: blur(100%);
+}
+
+.header::before {
+    content: "";
+    z-index: -1;
+    background-color: #2eb7f7ac;
+    width: 300px;
+    left: 35%;
+    border-radius: 500px;
+    top: 20%;
+    position: absolute;
+    height: 100%;
+}
+
+.header::after {
+    backdrop-filter: blur(100px);
+    content: "";
+    z-index: -1;
+    background-color: #f1f3f50b;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+}
+
+.header-container {
+    max-width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header-content p {
+    color: #374151;
+    font-size: 20px;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #312e38;
+}
+
+.header-content h1 strong {
+    font-size: 60px;
+    font-weight: 400;
+    background: linear-gradient(90deg, #8B5CF6, #8B5CF6, #0EA5E9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-content-button {
+    display: flex;
+    gap: 20px;
+}
+
+.header-content-button-1 {
+    display: flex;
+    color: white;
+    border-radius: 30px;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px;
+    background-color: #8b5cf6;
+}
+
+.header-content-button-1 svg,
+.home-content-button-2 svg {
+    width: 20px;
+    height: 20px;
+}
+
+.header-content-button-1 svg {
+    margin-top: 5px;
+}
+
+.header-content-button-2 {
+    display: flex;
+    color: white;
+    border-radius: 30px;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px;
+    background-color: #0EA5E9;
+}
+
+.header-content-2 {
+    width: 60%;
+    height: 25rem;
+    margin-right: 25px;
+    border-radius: 50%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px #8B5CF633;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.header-content-2-container {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.header-content-sub-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50pX;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #0EA5E9;
+    background-color: #0EA5E933;
+}
+
+.header-content-sub-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50pX;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #8B5CF6;
+    background-color: #8B5CF633;
+}
+
+.header-content-sub-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50pX;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #D946EF;
+    background-color: #D946EF33;
+}
+
+.header-content-sub-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50pX;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #F97316;
+    background-color: #F9731633;
+}
+
+@media (max-width: 1460px) {
+    .header{
+        padding: 10px;
+    }
+    .header-container{
+        gap: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .header{
+        padding: 20px;
+    }
+    .header-content-2 {
+        display: none;
+    }
+    .header-content h1 {
+        text-align: center;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .header-content h1 strong{
+        font-size: 38px;
+    }
+    .header-content p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .header-content-button {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .header-content-button-1 ,.header-content-button-2 {
+        justify-content: center;
+        width: 100%;
+        font-size: 14px;
+    }
+    .header-content-button-1 svg , .header-content-button-2 svg  {
+        width: 20px;
+        height: 20px;
+    }
+    .header::after {
+        left: 0;
+    }
+}

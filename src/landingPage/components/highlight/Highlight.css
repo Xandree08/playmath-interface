@@ -1,0 +1,48 @@
+.destaque {
+    padding: 50px 10px;
+    background-color: #f5f1ff;
+}
+.destaque-container {
+    margin: 0 auto;
+    max-width: 90rem;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.destaque-title {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.destaque-title h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #1f2937;
+}
+.destaque-title a {
+    display: flex;
+    align-items: center;
+    color: #8B5CF6;
+    padding: 0px 0px 5px 0;
+    border-bottom: 1px solid #8B5CF6;
+    gap: 5px;
+    text-decoration: none;
+}
+.destaque-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .destaque-title h2 {
+        font-size: 16px;
+    }
+    .destaque-title a {
+        font-size: 14px;
+        text-align: right;
+    }
+}

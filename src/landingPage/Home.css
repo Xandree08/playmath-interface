@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    font-family: "Quicksand";
+}
+header.sticky{
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
