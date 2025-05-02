@@ -10,7 +10,8 @@ const Highlight = () => {
             title: "Soma Rápida",
             description: "Teste sua velocidade com adição simples em um jogo contra o tempo",
             category: "Soma",
-            level: "Fácil"
+            level: "Fácil",
+            link: "#game1"
 
         },
         {
@@ -18,14 +19,16 @@ const Highlight = () => {
             title: "Multiplicação Mágica",
             description: "Aprenda tabuada de forma iterativa e divertida.",
             category: "Multiplicação",
-            level: "Médio"
+            level: "Médio",
+            link: "#game2"
         },
         {
             image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYyMDY5ODg3OA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300",
             title: "Divisão Desafiadora",
             description: "Resolva problemas de divisão em diferentes níveis de dificuldade.",
             category: "Divisão",
-            level: "Difícil"
+            level: "Difícil",
+            link: "#game1"
         }
     ]
     
@@ -44,7 +47,8 @@ const Highlight = () => {
                                 category={map.category}
                                 description={map.description}
                                 image={map.image}
-                                level={map.level} />
+                                level={map.level}
+                                link={map.link} />
                         ))
                     }
                 </section>

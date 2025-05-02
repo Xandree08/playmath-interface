@@ -9,7 +9,6 @@ import { useEffect, useState } from "react";
 
 
 function Home() {
-
     const [isSticky, setIsSticky] = useState(false)
 
     useEffect(() => {

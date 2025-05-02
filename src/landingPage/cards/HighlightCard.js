@@ -1,7 +1,9 @@
+import { LiaLinkedin } from "react-icons/lia"
 import "./HighlightCard.css"
 import { FaArrowRight } from "react-icons/fa"
+import { Link } from "react-router-dom"
 
-function HighlightCard ({image,title,description,level,category}){
+function HighlightCard ({image,title,description,level,category,link}){
     return (
         <div className="highlight-card">
             <img src={image}/>
@@ -13,7 +15,7 @@ function HighlightCard ({image,title,description,level,category}){
                 <p>{description}</p>
                 <div className="highlight-card-content-categoty" >
                     <span>{category}</span>
-                    <a href=""> Jogar Agora <FaArrowRight/> </a>
+                    <a href={link}> Jogar Agora <FaArrowRight/> </a>
                 </div>
             </div>
         </div>
