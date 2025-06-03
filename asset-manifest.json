@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/playmath-interface/static/css/main.58ff17b4.css",
-    "main.js": "/playmath-interface/static/js/main.7aae036d.js",
+    "main.js": "/playmath-interface/static/js/main.64c8dfb8.js",
     "static/js/453.56a53e9f.chunk.js": "/playmath-interface/static/js/453.56a53e9f.chunk.js",
     "static/media/campo-minado.png": "/playmath-interface/static/media/campo-minado.2e741c5c79895d66bd3e.png",
     "static/media/QuizMatrizes.png": "/playmath-interface/static/media/QuizMatrizes.35502170facb16203dd8.png",
     "static/media/Simulador.png": "/playmath-interface/static/media/Simulador.36407f6d87f98b8aa1b1.png",
     "static/media/Equacaoporposicao.png": "/playmath-interface/static/media/Equacaoporposicao.8784a57ebad4f6645161.png",
     "index.html": "/playmath-interface/index.html",
+    "static/media/favicon.svg": "/playmath-interface/static/media/favicon.6fe15d3b75842f96f4a18d51211d8209.svg",
     "main.58ff17b4.css.map": "/playmath-interface/static/css/main.58ff17b4.css.map",
-    "main.7aae036d.js.map": "/playmath-interface/static/js/main.7aae036d.js.map",
+    "main.64c8dfb8.js.map": "/playmath-interface/static/js/main.64c8dfb8.js.map",
     "453.56a53e9f.chunk.js.map": "/playmath-interface/static/js/453.56a53e9f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58ff17b4.css",
-    "static/js/main.7aae036d.js"
+    "static/js/main.64c8dfb8.js"
   ]
 }
